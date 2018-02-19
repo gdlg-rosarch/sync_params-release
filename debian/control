@@ -1,0 +1,12 @@
+Source: ros-kinetic-sync-params
+Section: misc
+Priority: extra
+Maintainer: Nick Sullivan <nick.dave.sullivan@gmail.com>
+Build-Depends: debhelper (>= 9.0.0), ros-kinetic-catkin, ros-kinetic-master-discovery-fkie, ros-kinetic-master-sync-fkie, ros-kinetic-message-generation, ros-kinetic-message-runtime, ros-kinetic-roscpp, ros-kinetic-roslaunch, ros-kinetic-std-msgs
+Homepage: https://github.com/NicksSimulationsROS/sync_params
+Standards-Version: 3.9.2
+
+Package: ros-kinetic-sync-params
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-kinetic-master-discovery-fkie, ros-kinetic-master-sync-fkie, ros-kinetic-message-generation, ros-kinetic-message-runtime, ros-kinetic-roscpp, ros-kinetic-std-msgs
+Description: Synchronises parameters across multiple masters.
